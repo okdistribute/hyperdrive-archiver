@@ -1,0 +1,24 @@
+{
+  "name": "hyperdrive-archiver",
+  "version": "1.0.0",
+  "description": "an archiver for hyperdrives with special gogoodies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karissa/hyperdrive-archiver.git"
+  },
+  "keywords": [
+    "hyperdrive",
+    "dat",
+    "archiver"
+  ],
+  "author": "Karissa McKelvey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karissa/hyperdrive-archiver/issues"
+  },
+  "homepage": "https://github.com/karissa/hyperdrive-archiver#readme"
+}
