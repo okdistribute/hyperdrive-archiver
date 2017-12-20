@@ -15,7 +15,7 @@ function Archiver (opts) {
   this.opts = opts
   mkdirp.sync(dir)
   this.ar = archiver(dir, opts)
-  this.swarm = swarm(this.ar)
+  this.swarm = swarm(this.ar, {})
 }
 
 Archiver.prototype.health = function (archive) {
