@@ -9,13 +9,13 @@ const swarm = require('hypercore-archiver/swarm')
 
 module.exports = Archiver
 
-function Archiver (opts) {
+function Archiver (opts, swarmOpts) {
   if (!(this instanceof Archiver)) return new Archiver(opts)
   var dir = opts.dir
   this.opts = opts
   mkdirp.sync(dir)
   this.ar = archiver(dir, opts)
-  this.swarm = swarm(this.ar)
+  this.swarm = swarm(this.ar, swarmOpts || {})
 }
 
 Archiver.prototype.health = function (archive) {
