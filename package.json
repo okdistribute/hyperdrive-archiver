@@ -1,6 +1,6 @@
 {
   "name": "hyperdrive-archiver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "an archiver for hyperdrives with special gogoodies",
   "main": "index.js",
   "scripts": {
